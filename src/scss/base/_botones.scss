@@ -1,0 +1,14 @@
+@use 'sass:color';
+
+.boton-amarillo {
+    @include boton($amarillo, inline-block);
+}
+
+.boton-amarillo-block {
+    @include boton($amarillo, block);
+}
+
+.boton-verde {
+    @include boton($verde, inline-block);
+    margin-bottom: $separacion / 2;
+}
