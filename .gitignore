@@ -14,7 +14,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Archivos generados por Gulp (compilados)
-build/
 dist/
 
 # Mapas de fuente de CSS (opcional)
